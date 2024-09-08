@@ -1,0 +1,2 @@
+/root/MPRPC/build/CMakeFiles/edit_cache.dir
+/root/MPRPC/build/CMakeFiles/rebuild_cache.dir
