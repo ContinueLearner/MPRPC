@@ -6,7 +6,7 @@ option cc_generic_services = true;
 
 message ResultCode
 {
-    uint32 errcode = 1;
+    int32 errcode = 1; 
     bytes errmsg = 2;
 }
 
@@ -19,10 +19,24 @@ message LoginRequest
 message LoginResponse
 {
     ResultCode result = 1;
-    bool success = 2;
+    bool sucess = 2;
 }
 
-service UserService
+message RegisterRequest
+{
+    uint32 id = 1;
+    bytes name = 2;
+    bytes pwd = 3;
+}
+
+message RegisterResponse
+{
+    ResultCode result = 1;
+    bool sucess = 2;
+}
+
+service UserServiceRpc
 {
     rpc Login(LoginRequest) returns(LoginResponse);
+    rpc Register(RegisterRequest) returns(RegisterResponse);
 }

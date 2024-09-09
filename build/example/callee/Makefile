@@ -116,6 +116,68 @@ depend:
 	cd /root/MPRPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+example/callee/CMakeFiles/provider.dir/rule:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/rule
+.PHONY : example/callee/CMakeFiles/provider.dir/rule
+
+# Convenience name for target.
+provider: example/callee/CMakeFiles/provider.dir/rule
+.PHONY : provider
+
+# fast build rule for target.
+provider/fast:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
+.PHONY : provider/fast
+
+__/user.pb.o: __/user.pb.cc.o
+.PHONY : __/user.pb.o
+
+# target to build an object file
+__/user.pb.cc.o:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
+.PHONY : __/user.pb.cc.o
+
+__/user.pb.i: __/user.pb.cc.i
+.PHONY : __/user.pb.i
+
+# target to preprocess a source file
+__/user.pb.cc.i:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.i
+.PHONY : __/user.pb.cc.i
+
+__/user.pb.s: __/user.pb.cc.s
+.PHONY : __/user.pb.s
+
+# target to generate assembly for a file
+__/user.pb.cc.s:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s
+.PHONY : __/user.pb.cc.s
+
+userservice.o: userservice.cc.o
+.PHONY : userservice.o
+
+# target to build an object file
+userservice.cc.o:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.o
+.PHONY : userservice.cc.o
+
+userservice.i: userservice.cc.i
+.PHONY : userservice.i
+
+# target to preprocess a source file
+userservice.cc.i:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.i
+.PHONY : userservice.cc.i
+
+userservice.s: userservice.cc.s
+.PHONY : userservice.s
+
+# target to generate assembly for a file
+userservice.cc.s:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.s
+.PHONY : userservice.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... provider"
+	@echo "... __/user.pb.o"
+	@echo "... __/user.pb.i"
+	@echo "... __/user.pb.s"
+	@echo "... userservice.o"
+	@echo "... userservice.i"
+	@echo "... userservice.s"
 .PHONY : help
 
 

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/root/MPRPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/root/MPRPC/src/include -I/root/MPRPC/example -g -fPIC -o CMakeFiles/mprpc.dir/mpracapplication.cc.o -c /root/MPRPC/src/mpracapplication.cc",
+  "file": "/root/MPRPC/src/mpracapplication.cc",
+  "output": "src/CMakeFiles/mprpc.dir/mpracapplication.cc.o"
+},
+{
+  "directory": "/root/MPRPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/root/MPRPC/src/include -I/root/MPRPC/example -g -fPIC -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /root/MPRPC/src/rpcprovider.cc",
+  "file": "/root/MPRPC/src/rpcprovider.cc",
+  "output": "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
+},
+{
+  "directory": "/root/MPRPC/build/example/callee",
+  "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/provider.dir/userservice.cc.o -c /root/MPRPC/example/callee/userservice.cc",
+  "file": "/root/MPRPC/example/callee/userservice.cc",
+  "output": "example/callee/CMakeFiles/provider.dir/userservice.cc.o"
+},
+{
+  "directory": "/root/MPRPC/build/example/callee",
+  "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /root/MPRPC/example/user.pb.cc",
+  "file": "/root/MPRPC/example/user.pb.cc",
+  "output": "example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
+}
+]

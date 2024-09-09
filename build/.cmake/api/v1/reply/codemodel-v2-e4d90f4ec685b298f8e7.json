@@ -28,7 +28,11 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "src"
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
 				},
 				{
 					"build" : "example",
@@ -54,7 +58,11 @@
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 0,
-					"source" : "example/callee"
+					"source" : "example/callee",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -68,10 +76,31 @@
 						2,
 						3
 					],
-					"name" : "mprpc"
+					"name" : "mprpc",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "mprpc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-mprpc-Debug-9a7e9cd4b186d83cba69.json",
+					"name" : "mprpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "provider::@493cd8b262c97a98b12b",
+					"jsonFile" : "target-provider-Debug-592ddf8cff7b505d951a.json",
+					"name" : "provider",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",

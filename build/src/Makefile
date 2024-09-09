@@ -116,6 +116,68 @@ depend:
 	cd /root/MPRPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/mprpc.dir/rule:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/rule
+.PHONY : src/CMakeFiles/mprpc.dir/rule
+
+# Convenience name for target.
+mprpc: src/CMakeFiles/mprpc.dir/rule
+.PHONY : mprpc
+
+# fast build rule for target.
+mprpc/fast:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
+.PHONY : mprpc/fast
+
+mpracapplication.o: mpracapplication.cc.o
+.PHONY : mpracapplication.o
+
+# target to build an object file
+mpracapplication.cc.o:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mpracapplication.cc.o
+.PHONY : mpracapplication.cc.o
+
+mpracapplication.i: mpracapplication.cc.i
+.PHONY : mpracapplication.i
+
+# target to preprocess a source file
+mpracapplication.cc.i:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mpracapplication.cc.i
+.PHONY : mpracapplication.cc.i
+
+mpracapplication.s: mpracapplication.cc.s
+.PHONY : mpracapplication.s
+
+# target to generate assembly for a file
+mpracapplication.cc.s:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mpracapplication.cc.s
+.PHONY : mpracapplication.cc.s
+
+rpcprovider.o: rpcprovider.cc.o
+.PHONY : rpcprovider.o
+
+# target to build an object file
+rpcprovider.cc.o:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
+.PHONY : rpcprovider.cc.o
+
+rpcprovider.i: rpcprovider.cc.i
+.PHONY : rpcprovider.i
+
+# target to preprocess a source file
+rpcprovider.cc.i:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.i
+.PHONY : rpcprovider.cc.i
+
+rpcprovider.s: rpcprovider.cc.s
+.PHONY : rpcprovider.s
+
+# target to generate assembly for a file
+rpcprovider.cc.s:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.s
+.PHONY : rpcprovider.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... mprpc"
+	@echo "... mpracapplication.o"
+	@echo "... mpracapplication.i"
+	@echo "... mpracapplication.s"
+	@echo "... rpcprovider.o"
+	@echo "... rpcprovider.i"
+	@echo "... rpcprovider.s"
 .PHONY : help
 
 
