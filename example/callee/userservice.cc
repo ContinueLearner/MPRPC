@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include "user.pb.h"
+#include "mprpcapplication.h"
+#include "rpcprovider.h"
 using namespace std;
 
 class UserService : public fixbug::UserService
@@ -30,8 +32,14 @@ public:
     }
 };
 
-int main()
+int main(int argc,char **argv)
 {
+    MprpcApplication::init(argc,argv);
 
+    RpcProvider provider;
+    provider.NotifyService(new UserService());
+
+    provider.run();
+    
     return 0;
 }
