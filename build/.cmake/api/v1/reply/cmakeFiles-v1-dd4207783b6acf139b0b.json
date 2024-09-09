@@ -120,6 +120,15 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/root/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "example/CMakeLists.txt"
+		},
+		{
+			"path" : "example/callee/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
