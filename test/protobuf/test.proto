@@ -2,6 +2,12 @@ syntax = "proto3";
 
 package fixbug;
 
+message ResultCode
+{
+    uint32 errcode = 1;
+    bytes errmsg = 2;
+}
+
 message LoginRequest
 {
     string name = 1;
@@ -10,7 +16,24 @@ message LoginRequest
 
 message LoginResponse
 {
-    int32 errcode = 1;
-    string errmsg = 2;
-    bool success = 3;
+    ResultCode resultCode = 1;
+    bool success = 2;
+}
+
+message User
+{
+    uint32 age = 1;
+    bytes name = 2;
+    enum Sex 
+    {
+        MAN = 0;
+        WOMAN = 1;    
+    }
+    Sex sex = 3;
+}
+
+message GetFriendListResponse
+{
+    ResultCode resultCode = 1;
+    repeated User userList = 2; //列表类型
 }
