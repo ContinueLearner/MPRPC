@@ -17,6 +17,21 @@ public:
                ::fixbug::LoginResponse *response,
                ::google::protobuf::Closure *done)
     {
-        
+        string name = request->name();
+        string pwd = request->pwd();
+
+        bool Login_result = Login(name,pwd);
+
+        //写response返回值
+        fixbug::ResultCode* code = response->mutable_result();
+        code->set_errcode(0);
+        code->set_errmsg("");
+        response->set_success(Login_result);
     }
 };
+
+int main()
+{
+
+    return 0;
+}
