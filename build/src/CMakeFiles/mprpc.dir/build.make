@@ -97,10 +97,24 @@ src/CMakeFiles/mprpc.dir/mprpcconfig.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcconfig.cc.s"
 	cd /root/MPRPC/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/MPRPC/src/mprpcconfig.cc -o CMakeFiles/mprpc.dir/mprpcconfig.cc.s
 
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: /root/MPRPC/src/rpcheader.pb.cc
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+	cd /root/MPRPC/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -MF CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /root/MPRPC/src/rpcheader.pb.cc
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/rpcheader.pb.cc.i"
+	cd /root/MPRPC/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/MPRPC/src/rpcheader.pb.cc > CMakeFiles/mprpc.dir/rpcheader.pb.cc.i
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/rpcheader.pb.cc.s"
+	cd /root/MPRPC/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/MPRPC/src/rpcheader.pb.cc -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
+
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: /root/MPRPC/src/rpcprovider.cc
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
 	cd /root/MPRPC/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/rpcprovider.cc.o -MF CMakeFiles/mprpc.dir/rpcprovider.cc.o.d -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /root/MPRPC/src/rpcprovider.cc
 
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.i: cmake_force
@@ -115,6 +129,7 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.s: cmake_force
 mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/mprpcapplication.cc.o" \
 "CMakeFiles/mprpc.dir/mprpcconfig.cc.o" \
+"CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
 "CMakeFiles/mprpc.dir/rpcprovider.cc.o"
 
 # External object files for target mprpc
@@ -122,10 +137,11 @@ mprpc_EXTERNAL_OBJECTS =
 
 /root/MPRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
 /root/MPRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
+/root/MPRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
 /root/MPRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
 /root/MPRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
 /root/MPRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library /root/MPRPC/lib/libmprpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/MPRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library /root/MPRPC/lib/libmprpc.a"
 	cd /root/MPRPC/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
 	cd /root/MPRPC/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 

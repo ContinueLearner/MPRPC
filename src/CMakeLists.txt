@@ -2,7 +2,7 @@
 set(SRC_LIST 
     mprpcapplication.cc 
     mprpcconfig.cc 
-    #rpcheader.pb.cc 
+    rpcheader.pb.cc 
     rpcprovider.cc 
     #mprpcchannel.cc
     #mprpccontroller.cc

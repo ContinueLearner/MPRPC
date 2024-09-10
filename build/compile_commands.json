@@ -13,6 +13,12 @@
 },
 {
   "directory": "/root/MPRPC/build/src",
+  "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /root/MPRPC/src/rpcheader.pb.cc",
+  "file": "/root/MPRPC/src/rpcheader.pb.cc",
+  "output": "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+},
+{
+  "directory": "/root/MPRPC/build/src",
   "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /root/MPRPC/src/rpcprovider.cc",
   "file": "/root/MPRPC/src/rpcprovider.cc",
   "output": "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
