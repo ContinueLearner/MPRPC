@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "/root/MPRPC/lib/libmprpc.pdb"
   "/root/MPRPC/lib/libmprpc.so"
-  "CMakeFiles/mprpc.dir/mpracapplication.cc.o"
-  "CMakeFiles/mprpc.dir/mpracapplication.cc.o.d"
+  "CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
+  "CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d"
+  "CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
+  "CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d"
   "CMakeFiles/mprpc.dir/rpcprovider.cc.o"
   "CMakeFiles/mprpc.dir/rpcprovider.cc.o.d"
 )

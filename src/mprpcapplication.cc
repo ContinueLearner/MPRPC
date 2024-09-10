@@ -4,6 +4,8 @@
 
 using namespace std;
 
+MprpcConfig MprpcApplication::m_config;//静态成员必须初始化
+
 MprpcApplication& MprpcApplication::getMpracApplication()
 {
     static MprpcApplication app;
@@ -43,4 +45,16 @@ void MprpcApplication::init(int argc,char **argv)
             break;
         }
     }
+
+    m_config.LoadConfigFile(config_file.c_str());
+
+    cout<<"rpcserverip: "<<m_config.Load("rpcserverip")<<endl;
+    cout<<"rpcserverport: "<<m_config.Load("rpcserverport")<<endl;
+    cout<<"zookeeperip: "<<m_config.Load("zookeeperip")<<endl;
+    cout<<"zookeeperport: "<<m_config.Load("zookeeperport")<<endl;
+}
+
+MprpcConfig& MprpcApplication::GetConfig()
+{
+    return m_config;
 }

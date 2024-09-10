@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 2,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
@@ -36,25 +36,25 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 11,
+				"line" : 14,
 				"parent" : 2
 			},
 			{
 				"command" : 1,
 				"file" : 1,
+				"line" : 15,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
 				"line" : 12,
-				"parent" : 2
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 8,
-				"parent" : 2
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 9,
 				"parent" : 2
 			}
 		]
@@ -89,7 +89,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -129,7 +130,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -138,7 +140,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/mpracapplication.cc",
+			"path" : "src/mprpcapplication.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mprpcconfig.cc",
 			"sourceGroupIndex" : 0
 		},
 		{

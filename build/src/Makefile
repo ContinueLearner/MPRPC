@@ -130,29 +130,53 @@ mprpc/fast:
 	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
-mpracapplication.o: mpracapplication.cc.o
-.PHONY : mpracapplication.o
+mprpcapplication.o: mprpcapplication.cc.o
+.PHONY : mprpcapplication.o
 
 # target to build an object file
-mpracapplication.cc.o:
-	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mpracapplication.cc.o
-.PHONY : mpracapplication.cc.o
+mprpcapplication.cc.o:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
+.PHONY : mprpcapplication.cc.o
 
-mpracapplication.i: mpracapplication.cc.i
-.PHONY : mpracapplication.i
+mprpcapplication.i: mprpcapplication.cc.i
+.PHONY : mprpcapplication.i
 
 # target to preprocess a source file
-mpracapplication.cc.i:
-	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mpracapplication.cc.i
-.PHONY : mpracapplication.cc.i
+mprpcapplication.cc.i:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cc.i
+.PHONY : mprpcapplication.cc.i
 
-mpracapplication.s: mpracapplication.cc.s
-.PHONY : mpracapplication.s
+mprpcapplication.s: mprpcapplication.cc.s
+.PHONY : mprpcapplication.s
 
 # target to generate assembly for a file
-mpracapplication.cc.s:
-	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mpracapplication.cc.s
-.PHONY : mpracapplication.cc.s
+mprpcapplication.cc.s:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cc.s
+.PHONY : mprpcapplication.cc.s
+
+mprpcconfig.o: mprpcconfig.cc.o
+.PHONY : mprpcconfig.o
+
+# target to build an object file
+mprpcconfig.cc.o:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
+.PHONY : mprpcconfig.cc.o
+
+mprpcconfig.i: mprpcconfig.cc.i
+.PHONY : mprpcconfig.i
+
+# target to preprocess a source file
+mprpcconfig.cc.i:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cc.i
+.PHONY : mprpcconfig.cc.i
+
+mprpcconfig.s: mprpcconfig.cc.s
+.PHONY : mprpcconfig.s
+
+# target to generate assembly for a file
+mprpcconfig.cc.s:
+	cd /root/MPRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cc.s
+.PHONY : mprpcconfig.cc.s
 
 rpcprovider.o: rpcprovider.cc.o
 .PHONY : rpcprovider.o
@@ -187,9 +211,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mprpc"
-	@echo "... mpracapplication.o"
-	@echo "... mpracapplication.i"
-	@echo "... mpracapplication.s"
+	@echo "... mprpcapplication.o"
+	@echo "... mprpcapplication.i"
+	@echo "... mprpcapplication.s"
+	@echo "... mprpcconfig.o"
+	@echo "... mprpcconfig.i"
+	@echo "... mprpcconfig.s"
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"

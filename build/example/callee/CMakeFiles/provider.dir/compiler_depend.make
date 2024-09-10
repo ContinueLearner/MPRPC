@@ -643,6 +643,7 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: /root/MPRPC/example/cal
   /usr/include/c++/9/cassert \
   /usr/local/include/google/protobuf/service.h \
   /root/MPRPC/src/include/mprpcapplication.h \
+  /root/MPRPC/src/include/mprpcconfig.h \
   /root/MPRPC/src/include/rpcprovider.h
 
 
@@ -799,6 +800,8 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: /root/MPRPC/example/cal
 /usr/include/c++/9/bits/shared_ptr_atomic.h:
 
 /usr/include/locale.h:
+
+/root/MPRPC/src/include/mprpcconfig.h:
 
 /usr/include/c++/9/bits/ptr_traits.h:
 
