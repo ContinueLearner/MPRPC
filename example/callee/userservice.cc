@@ -37,10 +37,10 @@ int main(int argc,char **argv)
 {
     MprpcApplication::init(argc,argv);
 
-    //RpcProvider provider;
-    //provider.NotifyService(new UserService());
+    RpcProvider provider;
+    provider.NotifyService(new UserService());
 
-    //provider.run();
+    provider.run();
 
     return 0;
 }

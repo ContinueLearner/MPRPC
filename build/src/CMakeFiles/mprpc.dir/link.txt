@@ -1,1 +1,2 @@
-/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libmprpc.so -o /root/MPRPC/lib/libmprpc.so CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o   -L/usr/local/lib  -L/root/MPRPC/lib 
+/usr/bin/ar qc /root/MPRPC/lib/libmprpc.a CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o
+/usr/bin/ranlib /root/MPRPC/lib/libmprpc.a

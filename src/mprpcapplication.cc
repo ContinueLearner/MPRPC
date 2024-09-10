@@ -48,10 +48,10 @@ void MprpcApplication::init(int argc,char **argv)
 
     m_config.LoadConfigFile(config_file.c_str());
 
-    cout<<"rpcserverip: "<<m_config.Load("rpcserverip")<<endl;
-    cout<<"rpcserverport: "<<m_config.Load("rpcserverport")<<endl;
-    cout<<"zookeeperip: "<<m_config.Load("zookeeperip")<<endl;
-    cout<<"zookeeperport: "<<m_config.Load("zookeeperport")<<endl;
+    // cout<<"rpcserverip: "<<m_config.Load("rpcserverip")<<endl;
+    // cout<<"rpcserverport: "<<m_config.Load("rpcserverport")<<endl;
+    // cout<<"zookeeperip: "<<m_config.Load("zookeeperip")<<endl;
+    // cout<<"zookeeperport: "<<m_config.Load("zookeeperport")<<endl;
 }
 
 MprpcConfig& MprpcApplication::GetConfig()

@@ -206,4 +206,99 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: /root/MPRPC/src/rpcprovider.cc \
  /usr/include/c++/9/backward/auto_ptr.h /usr/include/c++/9/set \
  /usr/include/c++/9/bits/stl_set.h /usr/include/c++/9/bits/stl_multiset.h \
  /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_vector.h \
- /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc
+ /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
+ /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
+ /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
+ /usr/include/muduo/net/TcpConnection.h \
+ /usr/include/muduo/base/StringPiece.h /usr/include/muduo/net/Callbacks.h \
+ /usr/include/muduo/base/Timestamp.h /usr/include/muduo/base/copyable.h \
+ /usr/local/include/boost/operators.hpp /usr/include/c++/9/iterator \
+ /usr/include/c++/9/bits/stream_iterator.h \
+ /usr/local/include/boost/config.hpp \
+ /usr/local/include/boost/config/user.hpp \
+ /usr/local/include/boost/config/detail/select_compiler_config.hpp \
+ /usr/local/include/boost/config/compiler/gcc.hpp \
+ /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
+ /usr/local/include/boost/config/stdlib/libstdcpp3.hpp \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/boost/config/detail/select_platform_config.hpp \
+ /usr/local/include/boost/config/platform/linux.hpp \
+ /usr/local/include/boost/config/detail/posix_features.hpp \
+ /usr/local/include/boost/config/detail/suffix.hpp \
+ /usr/local/include/boost/config/helper_macros.hpp \
+ /usr/local/include/boost/detail/workaround.hpp \
+ /usr/local/include/boost/config/workaround.hpp \
+ /usr/local/include/boost/core/addressof.hpp \
+ /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
+ /usr/include/muduo/net/Buffer.h /usr/include/muduo/net/Endian.h \
+ /usr/include/muduo/net/InetAddress.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/local/include/boost/any.hpp \
+ /usr/local/include/boost/type_index.hpp \
+ /usr/local/include/boost/type_index/stl_type_index.hpp \
+ /usr/local/include/boost/type_index/type_index_facade.hpp \
+ /usr/local/include/boost/container_hash/hash_fwd.hpp \
+ /usr/include/c++/9/cstring /usr/local/include/boost/static_assert.hpp \
+ /usr/local/include/boost/throw_exception.hpp \
+ /usr/local/include/boost/exception/exception.hpp \
+ /usr/local/include/boost/current_function.hpp \
+ /usr/local/include/boost/core/demangle.hpp /usr/include/c++/9/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/cxxabi_tweaks.h \
+ /usr/local/include/boost/type_traits/conditional.hpp \
+ /usr/local/include/boost/type_traits/is_const.hpp \
+ /usr/local/include/boost/type_traits/integral_constant.hpp \
+ /usr/local/include/boost/type_traits/is_reference.hpp \
+ /usr/local/include/boost/type_traits/is_lvalue_reference.hpp \
+ /usr/local/include/boost/type_traits/is_rvalue_reference.hpp \
+ /usr/local/include/boost/type_traits/is_volatile.hpp \
+ /usr/local/include/boost/type_traits/remove_cv.hpp \
+ /usr/local/include/boost/type_traits/remove_reference.hpp \
+ /usr/local/include/boost/type_traits/decay.hpp \
+ /usr/local/include/boost/type_traits/is_array.hpp \
+ /usr/local/include/boost/type_traits/is_function.hpp \
+ /usr/local/include/boost/type_traits/detail/config.hpp \
+ /usr/local/include/boost/version.hpp \
+ /usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+ /usr/local/include/boost/type_traits/remove_bounds.hpp \
+ /usr/local/include/boost/type_traits/remove_extent.hpp \
+ /usr/local/include/boost/type_traits/add_pointer.hpp \
+ /usr/local/include/boost/type_traits/add_reference.hpp \
+ /usr/local/include/boost/utility/enable_if.hpp \
+ /usr/local/include/boost/core/enable_if.hpp \
+ /usr/local/include/boost/type_traits/is_same.hpp \
+ /usr/include/muduo/net/EventLoop.h /usr/include/c++/9/atomic \
+ /usr/include/muduo/base/Mutex.h /usr/include/muduo/base/CurrentThread.h \
+ /usr/include/muduo/net/TimerId.h \
+ /usr/local/include/google/protobuf/descriptor.h \
+ /usr/local/include/google/protobuf/stubs/mutex.h \
+ /usr/include/c++/9/mutex /usr/include/c++/9/chrono \
+ /usr/include/c++/9/ratio /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/parse_numbers.h \
+ /usr/include/c++/9/bits/std_mutex.h \
+ /usr/include/c++/9/bits/unique_lock.h \
+ /usr/local/include/google/protobuf/stubs/once.h \
+ /usr/include/c++/9/unordered_map /usr/include/c++/9/bits/hashtable.h \
+ /usr/include/c++/9/bits/hashtable_policy.h \
+ /usr/include/c++/9/bits/unordered_map.h \
+ /root/MPRPC/src/include/mprpcapplication.h \
+ /root/MPRPC/src/include/mprpcconfig.h
