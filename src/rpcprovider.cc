@@ -137,7 +137,7 @@ void RpcProvider::SendRpcResponse(const muduo::net::TcpConnectionPtr& conn, goog
     if((response->SerializeToString(&response_str)))
     {
         conn->send(response_str);
-    }
+    } 
     else
     {
         std::cout << "serialize response_str error!" << std::endl;
