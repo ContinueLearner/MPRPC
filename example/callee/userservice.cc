@@ -30,6 +30,8 @@ public:
         code->set_errcode(0);
         code->set_errmsg("");
         response->set_sucess(Login_result);
+
+        done->Run();
     }
 };
 

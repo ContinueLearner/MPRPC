@@ -301,7 +301,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: /root/MPRPC/src/rpcprovider.cc \
  /usr/include/c++/9/bits/hashtable_policy.h \
  /usr/include/c++/9/bits/unordered_map.h \
  /root/MPRPC/src/include/mprpcapplication.h \
- /root/MPRPC/src/include/mprpcconfig.h /root/MPRPC/src/rpcheader.pb.h \
+ /root/MPRPC/src/include/mprpcconfig.h \
+ /root/MPRPC/src/include/rpcheader.pb.h \
  /usr/local/include/google/protobuf/io/coded_stream.h \
  /usr/include/c++/9/climits \
  /usr/local/include/google/protobuf/stubs/logging.h \

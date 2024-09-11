@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.0/CMakeSystem.cmake"
   "/root/MPRPC/example/CMakeLists.txt"
   "/root/MPRPC/example/callee/CMakeLists.txt"
+  "/root/MPRPC/example/caller/CMakeLists.txt"
   "/root/MPRPC/src/CMakeLists.txt"
   "/root/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCInformation.cmake"
   "/root/miniconda3/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
@@ -45,10 +46,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/callee/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "example/caller/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   "example/callee/CMakeFiles/provider.dir/DependInfo.cmake"
+  "example/caller/CMakeFiles/consumer.dir/DependInfo.cmake"
   )

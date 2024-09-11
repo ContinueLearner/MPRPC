@@ -127,7 +127,17 @@ void RpcProvider::onMessage(const muduo::net::TcpConnectionPtr&conn, muduo::net:
     }
 
     google::protobuf::Message *response = service->GetResponsePrototype(method).New();
+    // 给下面的method方法的调用，绑定一个Closure的回调函数
+    google::protobuf::Closure *done = google::protobuf::NewCallback<RpcProvider, 
+                                                                    const muduo::net::TcpConnectionPtr&, 
+                                                                    google::protobuf::Message*>
+                                                                    (this, 
+                                                                    &RpcProvider::SendRpcResponse, 
+                                                                    conn, response);
 
+    // 在框架上根据远端rpc请求，调用当前rpc节点上发布的方法
+    // new UserService().Login(controller, request, response, done)
+    service->CallMethod(method, nullptr, request, response, done);
 }
 
 

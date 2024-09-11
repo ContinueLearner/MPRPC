@@ -40,5 +40,17 @@
   "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /root/MPRPC/example/user.pb.cc",
   "file": "/root/MPRPC/example/user.pb.cc",
   "output": "example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
+},
+{
+  "directory": "/root/MPRPC/build/example/caller",
+  "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /root/MPRPC/example/caller/calluserservice.cc",
+  "file": "/root/MPRPC/example/caller/calluserservice.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o"
+},
+{
+  "directory": "/root/MPRPC/build/example/caller",
+  "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /root/MPRPC/example/user.pb.cc",
+  "file": "/root/MPRPC/example/user.pb.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o"
 }
 ]
