@@ -100,4 +100,47 @@ void RpcProvider::onMessage(const muduo::net::TcpConnectionPtr&conn, muduo::net:
     std::cout << "method_name: " << method_name << std::endl; 
     std::cout << "args_str: " << args_str << std::endl; 
     std::cout << "============================================" << std::endl;
+
+    auto it = m_serviceMap.find(service_name);
+    if(it == m_serviceMap.end())
+    {
+        std::cout<<service_name<<"is not exist"<<endl;
+        return;
+    }
+
+    auto mit = it->second.m_methodMap.find(method_name);
+    if(mit == it->second.m_methodMap.end())
+    {
+        std::cout<<service_name<<":"<<method_name<<"is not exist"<<endl;
+        return;
+    }
+
+    google::protobuf::Service *service = it->second.m_service;
+    const google::protobuf::MethodDescriptor *method = mit->second;
+
+    // 生成rpc方法调用的请求request和响应response参数
+    google::protobuf::Message *request = service->GetRequestPrototype(method).New();
+    if(!request->ParseFromString(args_str))
+    {
+        std::cout << "request parse error, content:" << args_str << std::endl;
+        return;
+    }
+
+    google::protobuf::Message *response = service->GetResponsePrototype(method).New();
+
+}
+
+
+void RpcProvider::SendRpcResponse(const muduo::net::TcpConnectionPtr& conn, google::protobuf::Message *response)
+{
+    std::string response_str;
+    if((response->SerializeToString(&response_str)))
+    {
+        conn->send(response_str);
+    }
+    else
+    {
+        std::cout << "serialize response_str error!" << std::endl;
+    }
+    conn->shutdown();
 }
