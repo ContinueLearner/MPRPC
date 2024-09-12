@@ -6,7 +6,7 @@ set(SRC_LIST
     rpcprovider.cc 
     mprpcchannel.cc
     mprpccontroller.cc
-    #logger.cc
+    logger.cc
     #zookeeperutil.cc
     )
 add_library(mprpc ${SRC_LIST})
