@@ -286,4 +286,12 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /root/MPRPC/src/include/mprpcapplication.h \
- /root/MPRPC/src/include/mprpcconfig.h
+ /root/MPRPC/src/include/mprpcconfig.h \
+ /root/MPRPC/src/include/zookeeperutil.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h
