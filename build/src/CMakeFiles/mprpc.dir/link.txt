@@ -1,2 +1,2 @@
-/usr/bin/ar qc /root/MPRPC/lib/libmprpc.a CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o CMakeFiles/mprpc.dir/mprpcchannel.cc.o
+/usr/bin/ar qc /root/MPRPC/lib/libmprpc.a CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o CMakeFiles/mprpc.dir/mprpcchannel.cc.o CMakeFiles/mprpc.dir/mprpccontroller.cc.o
 /usr/bin/ranlib /root/MPRPC/lib/libmprpc.a

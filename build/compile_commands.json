@@ -30,6 +30,12 @@
   "output": "src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
 },
 {
+  "directory": "/root/MPRPC/build/src",
+  "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /root/MPRPC/src/mprpccontroller.cc",
+  "file": "/root/MPRPC/src/mprpccontroller.cc",
+  "output": "src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
+},
+{
   "directory": "/root/MPRPC/build/example/callee",
   "command": "/usr/bin/g++  -I/root/MPRPC/src/include -I/root/MPRPC/example -g -o CMakeFiles/provider.dir/userservice.cc.o -c /root/MPRPC/example/callee/userservice.cc",
   "file": "/root/MPRPC/example/callee/userservice.cc",
